@@ -1,5 +1,344 @@
-Hola buen dia maestro...
+//Hola buen dia maestro...
 
-Esta es la practica numero cinco...
+//Esta es la practica numero cinco...
 
-Tambien llamada "Practica Examen"
+//Tambien llamada "Practica Examen"
+
+/*
+ * Created by SharpDevelop.
+ * User: Miny
+ * Date: 28/04/2014
+ * Time: 04:10 p.m.
+ * 
+ * To change this template use Tools | Options | Coding | Edit Standard Headers.
+ */
+namespace lunes
+{
+	partial class MainForm
+	{
+		/// <summary>
+		/// Designer variable used to keep track of non-visual components.
+		/// </summary>
+		private System.ComponentModel.IContainer components = null;
+		
+		/// <summary>
+		/// Disposes resources used by the form.
+		/// </summary>
+		/// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+		protected override void Dispose(bool disposing)
+		{
+			if (disposing) {
+				if (components != null) {
+					components.Dispose();
+				}
+			}
+			base.Dispose(disposing);
+		}
+		
+		/// <summary>
+		/// This method is required for Windows Forms designer support.
+		/// Do not change the method contents inside the source code editor. The Forms designer might
+		/// not be able to load this method if it was changed manually.
+		/// </summary>
+		private void InitializeComponent()
+		{
+			this.label1 = new System.Windows.Forms.Label();
+			this.USUARIO = new System.Windows.Forms.Label();
+			this.label2 = new System.Windows.Forms.Label();
+			this.label3 = new System.Windows.Forms.Label();
+			this.label4 = new System.Windows.Forms.Label();
+			this.label5 = new System.Windows.Forms.Label();
+			this.numD = new System.Windows.Forms.NumericUpDown();
+			this.monC = new System.Windows.Forms.MonthCalendar();
+			this.button1 = new System.Windows.Forms.Button();
+			this.label6 = new System.Windows.Forms.Label();
+			this.rbtReino = new System.Windows.Forms.CheckBox();
+			this.checkBox2 = new System.Windows.Forms.CheckBox();
+			this.checkBox3 = new System.Windows.Forms.CheckBox();
+			this.checkBox4 = new System.Windows.Forms.CheckBox();
+			this.checkBox5 = new System.Windows.Forms.CheckBox();
+			this.rbtMuss = new System.Windows.Forms.CheckBox();
+			this.checkBox7 = new System.Windows.Forms.CheckBox();
+			this.label7 = new System.Windows.Forms.Label();
+			this.label8 = new System.Windows.Forms.Label();
+			((System.ComponentModel.ISupportInitialize)(this.numD)).BeginInit();
+			this.SuspendLayout();
+			// 
+			// label1
+			// 
+			this.label1.Location = new System.Drawing.Point(34, 11);
+			this.label1.Name = "label1";
+			this.label1.Size = new System.Drawing.Size(100, 23);
+			this.label1.TabIndex = 3;
+			this.label1.Text = "CODIGO";
+			this.label1.UseWaitCursor = true;
+			// 
+			// USUARIO
+			// 
+			this.USUARIO.Location = new System.Drawing.Point(225, 11);
+			this.USUARIO.Name = "USUARIO";
+			this.USUARIO.Size = new System.Drawing.Size(100, 23);
+			this.USUARIO.TabIndex = 4;
+			this.USUARIO.Text = "USUARIO";
+			// 
+			// label2
+			// 
+			this.label2.Location = new System.Drawing.Point(34, 85);
+			this.label2.Name = "label2";
+			this.label2.Size = new System.Drawing.Size(100, 23);
+			this.label2.TabIndex = 5;
+			this.label2.Text = "EXAMEN";
+			// 
+			// label3
+			// 
+			this.label3.Location = new System.Drawing.Point(44, 117);
+			this.label3.Name = "label3";
+			this.label3.Size = new System.Drawing.Size(307, 23);
+			this.label3.TabIndex = 6;
+			this.label3.Text = "1. Selecciona los paises aliados en la segunda guerrra mundial";
+			// 
+			// label4
+			// 
+			this.label4.Location = new System.Drawing.Point(44, 274);
+			this.label4.Name = "label4";
+			this.label4.RightToLeft = System.Windows.Forms.RightToLeft.No;
+			this.label4.Size = new System.Drawing.Size(393, 23);
+			this.label4.TabIndex = 11;
+			this.label4.Text = "2. Seleccione el gobernante de Italia durante la segunda guerra mundial";
+			// 
+			// label5
+			// 
+			this.label5.Location = new System.Drawing.Point(44, 401);
+			this.label5.Name = "label5";
+			this.label5.Size = new System.Drawing.Size(265, 27);
+			this.label5.TabIndex = 15;
+			this.label5.Text = "3. Numero de estados de la Republica Mexicana";
+			// 
+			// numD
+			// 
+			this.numD.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+			this.numD.Location = new System.Drawing.Point(44, 431);
+			this.numD.Name = "numD";
+			this.numD.Size = new System.Drawing.Size(37, 20);
+			this.numD.TabIndex = 16;
+			// 
+			// monC
+			// 
+			this.monC.Location = new System.Drawing.Point(44, 496);
+			this.monC.Name = "monC";
+			this.monC.TabIndex = 17;
+			// 
+			// button1
+			// 
+			this.button1.Location = new System.Drawing.Point(361, 557);
+			this.button1.Name = "button1";
+			this.button1.Size = new System.Drawing.Size(125, 54);
+			this.button1.TabIndex = 18;
+			this.button1.Text = "GUARDAR";
+			this.button1.UseVisualStyleBackColor = true;
+			this.button1.Click += new System.EventHandler(this.Button1Click);
+			// 
+			// label6
+			// 
+			this.label6.Location = new System.Drawing.Point(44, 464);
+			this.label6.Name = "label6";
+			this.label6.Size = new System.Drawing.Size(247, 23);
+			this.label6.TabIndex = 19;
+			this.label6.Text = "4. Cual es la fecha de la Independencia de México";
+			// 
+			// rbtReino
+			// 
+			this.rbtReino.Location = new System.Drawing.Point(44, 143);
+			this.rbtReino.Name = "rbtReino";
+			this.rbtReino.Size = new System.Drawing.Size(104, 24);
+			this.rbtReino.TabIndex = 20;
+			this.rbtReino.Text = "Reino Unido";
+			this.rbtReino.UseVisualStyleBackColor = true;
+			this.rbtReino.CheckedChanged += new System.EventHandler(this.RbtReinoCheckedChanged);
+			// 
+			// checkBox2
+			// 
+			this.checkBox2.Location = new System.Drawing.Point(44, 173);
+			this.checkBox2.Name = "checkBox2";
+			this.checkBox2.Size = new System.Drawing.Size(104, 24);
+			this.checkBox2.TabIndex = 21;
+			this.checkBox2.Text = "Japón";
+			this.checkBox2.UseVisualStyleBackColor = true;
+			// 
+			// checkBox3
+			// 
+			this.checkBox3.Location = new System.Drawing.Point(44, 203);
+			this.checkBox3.Name = "checkBox3";
+			this.checkBox3.Size = new System.Drawing.Size(104, 24);
+			this.checkBox3.TabIndex = 22;
+			this.checkBox3.Text = "Alemania";
+			this.checkBox3.UseVisualStyleBackColor = true;
+			this.checkBox3.CheckedChanged += new System.EventHandler(this.CheckBox3CheckedChanged);
+			// 
+			// checkBox4
+			// 
+			this.checkBox4.Location = new System.Drawing.Point(44, 233);
+			this.checkBox4.Name = "checkBox4";
+			this.checkBox4.Size = new System.Drawing.Size(104, 24);
+			this.checkBox4.TabIndex = 23;
+			this.checkBox4.Text = "Rusia";
+			this.checkBox4.UseVisualStyleBackColor = true;
+			this.checkBox4.CheckedChanged += new System.EventHandler(this.CheckBox4CheckedChanged);
+			// 
+			// checkBox5
+			// 
+			this.checkBox5.Location = new System.Drawing.Point(44, 300);
+			this.checkBox5.Name = "checkBox5";
+			this.checkBox5.Size = new System.Drawing.Size(104, 24);
+			this.checkBox5.TabIndex = 24;
+			this.checkBox5.Text = "Hitler";
+			this.checkBox5.UseVisualStyleBackColor = true;
+			// 
+			// rbtMuss
+			// 
+			this.rbtMuss.Location = new System.Drawing.Point(44, 330);
+			this.rbtMuss.Name = "rbtMuss";
+			this.rbtMuss.Size = new System.Drawing.Size(104, 24);
+			this.rbtMuss.TabIndex = 25;
+			this.rbtMuss.Text = "Mussolini";
+			this.rbtMuss.UseVisualStyleBackColor = true;
+			this.rbtMuss.CheckedChanged += new System.EventHandler(this.RbtMussCheckedChanged);
+			// 
+			// checkBox7
+			// 
+			this.checkBox7.Location = new System.Drawing.Point(44, 360);
+			this.checkBox7.Name = "checkBox7";
+			this.checkBox7.Size = new System.Drawing.Size(104, 24);
+			this.checkBox7.TabIndex = 26;
+			this.checkBox7.Text = "Berlussini";
+			this.checkBox7.UseVisualStyleBackColor = true;
+			// 
+			// label7
+			// 
+			this.label7.BackColor = System.Drawing.Color.DeepSkyBlue;
+			this.label7.Location = new System.Drawing.Point(34, 40);
+			this.label7.Name = "label7";
+			this.label7.Size = new System.Drawing.Size(154, 23);
+			this.label7.TabIndex = 27;
+			this.label7.Text = "Minerva Leicia Mora Montoya";
+			this.label7.Click += new System.EventHandler(this.Label7Click);
+			// 
+			// label8
+			// 
+			this.label8.BackColor = System.Drawing.Color.DeepSkyBlue;
+			this.label8.Location = new System.Drawing.Point(225, 40);
+			this.label8.Name = "label8";
+			this.label8.Size = new System.Drawing.Size(100, 23);
+			this.label8.TabIndex = 28;
+			this.label8.Text = "25385";
+			// 
+			// MainForm
+			// 
+			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+			this.BackColor = System.Drawing.Color.DarkCyan;
+			this.ClientSize = new System.Drawing.Size(769, 754);
+			this.Controls.Add(this.label8);
+			this.Controls.Add(this.label7);
+			this.Controls.Add(this.checkBox7);
+			this.Controls.Add(this.rbtMuss);
+			this.Controls.Add(this.checkBox5);
+			this.Controls.Add(this.checkBox4);
+			this.Controls.Add(this.checkBox3);
+			this.Controls.Add(this.checkBox2);
+			this.Controls.Add(this.rbtReino);
+			this.Controls.Add(this.label6);
+			this.Controls.Add(this.button1);
+			this.Controls.Add(this.monC);
+			this.Controls.Add(this.numD);
+			this.Controls.Add(this.label5);
+			this.Controls.Add(this.label4);
+			this.Controls.Add(this.label3);
+			this.Controls.Add(this.label2);
+			this.Controls.Add(this.USUARIO);
+			this.Controls.Add(this.label1);
+			this.ForeColor = System.Drawing.SystemColors.ControlText;
+			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
+			this.Name = "MainForm";
+			this.Text = "EXAMEN";
+			this.TransparencyKey = System.Drawing.Color.Teal;
+			this.Load += new System.EventHandler(this.MainFormLoad);
+			((System.ComponentModel.ISupportInitialize)(this.numD)).EndInit();
+			this.ResumeLayout(false);
+		}
+		private System.Windows.Forms.Label label8;
+		private System.Windows.Forms.Label label7;
+		private System.Windows.Forms.CheckBox checkBox7;
+		private System.Windows.Forms.CheckBox rbtMuss;
+		private System.Windows.Forms.CheckBox checkBox5;
+		private System.Windows.Forms.CheckBox checkBox4;
+		private System.Windows.Forms.CheckBox checkBox3;
+		private System.Windows.Forms.CheckBox checkBox2;
+		private System.Windows.Forms.CheckBox rbtReino;
+		private System.Windows.Forms.Label label6;
+		int x;
+		private System.Windows.Forms.Button button1;
+		private System.Windows.Forms.MonthCalendar monC;
+		private System.Windows.Forms.NumericUpDown numD;
+		private System.Windows.Forms.Label label5;
+		private System.Windows.Forms.Label label4;
+		private System.Windows.Forms.Label label3;
+		private System.Windows.Forms.Label label2;
+		private System.Windows.Forms.Label USUARIO;
+		private System.Windows.Forms.Label label1;
+		
+		void Button1Click(object sender, System.EventArgs e)
+		{
+		x =0;
+			
+			
+			if (this.rbtReino.Checked)
+			{
+				x += 2;
+				
+			}
+			if (this.rbtMuss.Checked)
+			{
+				x +=2;
+			
+			}
+			if (this.numD.Text=="31")
+			{
+				x +=2;
+				
+			}
+			if (this.monC.SelectionStart.Date.ToShortDateString()=="16/09/1810")
+			{
+				x +=2;
+				
+			}
+		System.Windows.Forms.MessageBox.Show(x.ToString());	
+		}
+		
+		
+		void Label7Click(object sender, System.EventArgs e)
+		{
+			
+		}
+		
+		void RbtReinoCheckedChanged(object sender, System.EventArgs e)
+		{
+			
+		}
+		
+		void CheckBox3CheckedChanged(object sender, System.EventArgs e)
+		{
+			
+		}
+		
+		void CheckBox4CheckedChanged(object sender, System.EventArgs e)
+		{
+			
+		}
+		
+		void RbtMussCheckedChanged(object sender, System.EventArgs e)
+		{
+			
+		}
+	}
+}
